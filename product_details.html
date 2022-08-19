@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/collection2.png" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      type="text/css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <title>Product Details - Apparel</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Apparel by Drew</a>
+
+        <div class="nav__menu" id="nav_menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">
+                <i class="ri-home-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="products.html" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>Collections</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="account.html" class="nav__link">
+                <i class="ri-account-circle-line"></i>
+                <span>Account</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="products.html" class="nav__link">
+                <i class="ri-t-shirt-line"></i>
+                <span>Products</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="cart.html" class="nav__link">
+                <i class="ri-shopping-cart-2-line"></i>
+                <span>Cart</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+ 
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="column">
+                  <img src="assets/img/product-1.jpg" alt="shirt"  style="width:80%"
+                  id="product-img">
+
+                  <div class="small-img-row">
+                      <div class="small-img-column">
+                        <img src="assets/img/gallery-1.jpg" alt="shirt" style="width:80%" class="small-img">
+                      </div>
+
+                      <div class="small-img-column">
+                        <img src="assets/img/gallery-2.jpg" alt="shirt" style="width:80%" class="small-img">
+                      </div>
+
+                      <div class="small-img-column">
+                        <img src="assets/img/gallery-3.jpg" alt="shirt" style="width:80%" class="small-img">
+                      </div>
+
+                      <div class="small-img-column">
+                        <img src="assets/img/gallery-4.jpg" alt="shirt" style="width:80%" class="small-img">
+                      </div>
+                  </div>
+                </div>
+                <div class="column">
+                    <p>Home / T-Shirt</p>
+                    <h1>Red Printed T-Shirt by Apparel</h1>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn-cart">Add to Cart</a>
+
+                    <h3>Product Details</h3>
+                    <p>Give your summer wardrobe a style upgrade.
+                        Perfecr for the morning workout and pairs 
+                        nicely with denim jeans.
+                    </p>
+                </div>
+              </div>
+        </div>
+      
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        <h2 class="section__title" id="products__title">Related Products</h2>
+
+        <!-- <div class="row">
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by sale</option>
+            </select> 
+        </div>  -->
+
+        <div class="products__container container">
+          <div class="swiper-wrapper">
+            <article class="products__card">
+              <img
+                src="assets/img/product-10.jpg"
+                class="products__img"
+                alt="product image"
+              />
+
+              <h3 class="product__title">Gotland Black Jacket</h3>
+              <span class="products__price"> $124.99 </span>
+            </article>
+
+            <article class="products__card">
+              <img
+                src="assets/img/product-11.jpg"
+                class="products__img"
+                alt="product image"
+              />
+
+              <h3 class="product__title">Black Sport Shots</h3>
+              <span class="products__price"> $34.99 </span>
+            </article>
+
+            <article class="products__card">
+              <img
+                src="assets/img/product-12.jpg"
+                class="products__img"
+                alt="product image"
+              />
+
+              <h3 class="product__title">Quilted Jacket</h3>
+              <span class="products__price"> $100.99 </span>
+            </article>
+
+            <article class="products__card">
+              <img
+                src="assets/img/product-4.jpg"
+                class="products__img"
+                alt="product image"
+              />
+
+              <h3 class="product__title">Blue Pants</h3>
+              <span class="products__price"> $20.99 </span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer__section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo"> Apparel </a>
+
+          <p class="footer__description">Mordern day traditional ware</p>
+        </div>
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Category</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contact Info</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Blog</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Events</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Popular News</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Recent News</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Office</h3>
+
+            <p class="footer__information">
+              Monday - Friday <br />
+              9AM - 9PM
+            </p>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Contact Us</h3>
+
+            <ul class="footer__social">
+              <!--Insert your name from your facebook page-->
+              <a
+                href="http://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-box-line"></i>
+              </a>
+              <!-- Insert your name from your instagram page -->
+              <a
+                href="http://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+              <!-- Insert a real number plus country code -->
+              <a
+                href="https://api.whatsapp.com/send?phone=51123456789$text=Hello, more information"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-whatsapp-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy"> &#169; Apparel. All rights reserved </span>
+
+        <a href="#" class="footer__privacy"> Terms & Conditions </a>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+</html>
